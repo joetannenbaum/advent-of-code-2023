@@ -1,0 +1,13 @@
+{
+    "require": {
+        "laravel/prompts": "^0.1.13"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "require-dev": {
+        "tightenco/duster": "^2.6"
+    }
+}
