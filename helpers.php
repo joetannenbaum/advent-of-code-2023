@@ -1,7 +1,6 @@
 <?php
 
-function dd(...$args)
+function inputAsArray($dir, $filename = null)
 {
-    var_dump(...$args);
-    exit();
+    return explode(PHP_EOL, file_get_contents($filename ?? $dir . '/input.txt'));
 }

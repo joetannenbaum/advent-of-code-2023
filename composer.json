@@ -8,6 +8,12 @@
         ]
     },
     "require-dev": {
-        "tightenco/duster": "^2.6"
+        "tightenco/duster": "^2.6",
+        "pestphp/pest": "^2.26"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     }
 }
